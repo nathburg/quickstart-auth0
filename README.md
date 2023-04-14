@@ -13,6 +13,7 @@ You can find the values to give these variables in the Settings of your Auth0 ap
 Now in the terminal run
 
 ```
+pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver 3000
 ```
